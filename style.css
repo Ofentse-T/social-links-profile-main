@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 70px;
+  height: auto;
+  margin: 10px;
+  position: relative;
+  left: 35%;
+}
+
+.card .name-city h1 {
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.name-city h3 {
+  color: hsl(75, 94%, 57%);
+  font-size: 10.5px;
+  text-align: center;
+  margin: 8px 0 20px 0;
+}
+
+.bio p {
+  color: white;
+  font-size: 11px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  display: table-row;
+  text-align: center;
+  /* line-height: 20px; */
+}
+
+.socials .git {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.socials .front {
+  display: block;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.socials .linked {
+  display: block;
+  padding: 20px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 8px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.socials .x {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  padding: 8px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.socials .insta {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  padding: 8px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.attribution {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Active states */
+.attribution a:hover {
+  color: hsl(75, 94%, 57%);
+}
+.socials .git:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.socials .front:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.socials .linked:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.socials .x:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.socials .insta:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+/* Media query */
+
+/* @media only screen and (max-width: 1440px) {
+  .card img {
+    position: relative;
+    left: 35%;
+  }
+  .name-city h3 {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+  .card .name-city h1 {
+    font-size: 18px;
+  }
+  .bio p {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .socials .git {
+    padding: 10px 0;
+  }
+  .socials .front {
+    padding: 10px 0;
+  }
+  .socials .linked {
+    padding: 10px 0;
+  }
+  .socials .x {
+    padding: 10px 0;
+  }
+  .socials .insta {
+    padding: 10px 0;
+  }
+} */
+
+/* @media only screen and (min-width: 425px) {
+  .card img {
+    position: relative;
+    left: 25%;
+  }
+  .name-city h3 {
+    font-size: 10px;
+  }
+  .bio p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .card img {
+    position: relative;
+    left: 20%;
+  }
+  .name-city h3 {
+    font-size: 10px;
+  }
+  .bio p {
+    font-size: 10px;
+  }
+} */
